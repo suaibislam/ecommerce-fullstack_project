@@ -1,0 +1,19 @@
+.menu-list-item .active{
+    border-radius: 50%;
+    border: 4px solid red;
+    padding:2px;
+}
+
+.menu-list{
+display: flex;
+justify-content: space-between;
+
+}
+.menu-list-item{
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}

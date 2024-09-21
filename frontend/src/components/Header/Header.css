@@ -1,0 +1,35 @@
+.text-pic{
+    position: absolute;
+    top:18rem ;
+    left: 10rem;
+}
+
+.order{
+    color: white;
+    font-size: 3rem;
+}
+.food{
+    color: white;
+    font-size: 2.5rem;
+}
+.lorem{
+    color: white;
+    
+}
+
+.view-btn{
+    color: white;
+    margin-top: 1rem;
+    border: 2px solid white;
+    padding: 0.5rem;
+    border-radius: 10rem;
+}
+
+.view-btn:hover{
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+    border: 2px solid rgb(24, 243, 8);
+    padding: 0.5rem;
+    border-radius: 10rem;
+}
