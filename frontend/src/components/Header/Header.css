@@ -1,7 +1,13 @@
+.head{
+    position: relative;
+}
+
+
+
 .text-pic{
     position: absolute;
-    top:18rem ;
-    left: 10rem;
+    top:12rem ;
+    left:1rem;
 }
 
 .order{

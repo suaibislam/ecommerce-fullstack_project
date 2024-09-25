@@ -3,7 +3,7 @@ import './Header.css'
 import {assets} from '../../assets/assets'
 const Header = () => {
   return (
-    <div>
+    <div className=' head bg-lime-500'>
       <img src={assets.header_img} alt="" />
       <div className='text-pic'>
       <h1 className='order'>Order your </h1>
