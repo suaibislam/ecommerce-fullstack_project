@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './Navbar.css';
 import {assets} from '../../assets/assets'
 
-const Navbar = () => {
+const Navbar = ({setLogin}) => {
   const [menu, setmenu] = useState('home')
   return (
     <nav className='nav'>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <img src={assets.search_icon} alt="" className='img1' />
           <img src={assets.basket_icon} alt="" className='img2'/>
           <div className="dot"></div>
-          <div className=' sign'>Sign in</div>
+          <div onClick={()=>setLogin(true)} className=' sign'>Sign in</div>
       </div>
     </nav>
   )

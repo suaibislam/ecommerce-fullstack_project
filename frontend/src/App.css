@@ -1,5 +1,7 @@
 .app{
     width: 85%;
-    margin: auto;
+    margin: auto auto;
+    /* margin-left: 7rem; */
+ 
     
 }
