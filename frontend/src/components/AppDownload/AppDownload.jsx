@@ -3,7 +3,7 @@ import './AppDownload.css';
 import { assets } from '../../assets/assets';
 const AppDownload = () => {
   return (
-    <div className=' mt-20 mb-16 flex justify-center items-center flex-col'>
+    <div className=' mt-20 mb-16 flex justify-center items-center flex-col' id='app-download'>
         <div className=' text-center mb-5'>
         <h1 className=' text-2xl'>For Better Experience Download</h1>
         <h2 className=' font-bold' >Tomato App</h2>
