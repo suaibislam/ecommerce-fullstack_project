@@ -1,15 +1,16 @@
 import React from 'react'
+import './Footer.css'
 import { assets } from '../../assets/assets'
 
 const Footer = () => {
 
     return (
-        <footer className=' text-yellow-50 bg-slate-800 flex flex-col text-center ' id='footer'>
+        <footer className='foothead text-yellow-50 bg-slate-800 flex flex-col text-center ' id='footer'>
 
-            <div className=' mt-10 flex flex-row justify-around'>
+            <div className='footmain mt-10 flex flex-row justify-around'>
                 <div className=''>
-                    <img src={assets.logo} alt="" />
-                    <p className=' w-96 mt-3 mb-3 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto iste possimus! Sed laboriosam assumenda eius aut eos rerum doloremque quae nihil aliquid autem?</p>
+                    <img className='img-one' src={assets.logo} alt="" />
+                    <p className=' lorem1 w-96 mt-3 mb-3 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto iste possimus! Sed laboriosam assumenda eius aut eos rerum doloremque quae nihil aliquid autem?</p>
                     <div className=' flex gap-3'>
                         <img className='' src={assets.facebook_icon} alt="" />
                         <img className='' src={assets.linkedin_icon} alt="" />

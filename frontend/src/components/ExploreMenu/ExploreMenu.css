@@ -5,15 +5,22 @@
 }
 
 .menu-list{
+    margin-top: 1.5rem;
 display: flex;
 justify-content: space-between;
+flex-wrap:wrap;
 
 }
 .menu-list-item{
-
+    
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     
+}
+
+.explore-list{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }

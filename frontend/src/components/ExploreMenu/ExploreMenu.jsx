@@ -4,9 +4,9 @@ import {menu_list} from '../../assets/assets'
 const ExploreMenu = ({catagory,setcatagory}) => {
   // console.log("catagory:",catagory);
   return (
-    <div id='explore-menu'>
-        <h1>Explore Your Menu</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, commodi dolorem. Facere?</p>
+    <div id='explore-menu' className='explore-list'>
+        <h1 className=' text-center font-bold text-xl'>Explore Your Menu</h1>
+        <p className=' text-center mb-20'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, commodi dolorem. Facere?</p>
         <div className='menu-list'>
           {
             menu_list.map((item,key)=>{

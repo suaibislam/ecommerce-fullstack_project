@@ -16,7 +16,6 @@
 }
 .food{
     color: white;
-    font-size: 2.5rem;
 }
 .lorem{
     color: white;
@@ -25,7 +24,7 @@
 
 .view-btn{
     color: white;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border: 2px solid white;
     padding: 0.5rem;
     border-radius: 10rem;
@@ -38,4 +37,56 @@
     border: 2px solid rgb(24, 243, 8);
     padding: 0.5rem;
     border-radius: 10rem;
+}
+
+@media screen and ( max-width:750px) {
+    .text-pic{
+        position: absolute;
+        top: 3rem;
+        bottom: 0;
+    }
+    .lorem{
+        display:none;
+    }
+
+    .order{
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .view-btn{
+        display: none;
+    }
+  
+}
+
+
+@media screen and ( max-width:380px) {
+    .text-pic{
+        position: absolute;
+        top: 0rem;
+        bottom: 0;
+       
+    }
+    .lorem{
+        display:none;
+    }
+
+    .order{
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .view-btn{
+      display: none;
+    }
+
+    .lorem{
+        display:block;
+        font-size: small;
+        line-height: normal;
+        
+    }
+  
 }
